@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>"La sazon de Virginia"</title>
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ade80a;
+            color: #0b180b;
+        }
+
+        header {
+            background-color: #abf021;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav {
+            background-color: #20ad90;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: red;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-image: url("mifondo.png");
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(25, 7, 7);
+            font-size: 40px;
+        }
+
+        .menu, .about, .contact {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .menu h2, .about h2, .contact h2 {
+            color: #333;
+            font-size: 30px;
+        }
+
+        .menu-items {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .menu-item {
+            background-color: rgb(233, 94, 2);
+            padding: 20px;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .menu-item h3 {
+            margin-top: 15px;
+            font-size: 20px;
+        }
+
+        .footer {
+            background-color: #e60b0b;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<hr>
+
+    <!-- Header -->
+    <header>
+        <h1>"La sazon de Virginia"</h1>
+    </header>
+
+    <!-- Navegación -->
+    <nav>
+        <a href="#home">Inicio</a>
+        <a href="#menu">Menú</a>
+        <a href="#about">Nosotros</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <!-- Hero Image -->
+    <section class="hero">
+        <div>Disfruta de lo mejor de la ciudad de Quevedo</div>
+    </section>
+
+    <!-- Menú -->
+    <section class="menu" id="menu">
+        <h2>Menú</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="booo.jpeg" alt="Plato 1">
+                <h3>bollo de tilapia</h3>
+                <p>descubre el delicioso sabor y textura de el bollo de tilapia </p>
+                <p>$2.75</p>
+            </div>
+            <div class="menu-item">
+                <img src="opp.jpeg" alt="Plato 2">
+                <h3>bolo de albacora con Camarón</h3>
+                <p>Un toque refrescante con limones y a comer</p>
+                <p>$2.75</p>
+            </div>
+            <div class="menu-item">
+                <img src="descarga.jpg" alt="Plato 3">
+                <h3>bollos de boca chico</h3>
+                <p>un sabor unico y tradicional</p>
+                <br>
+                <p>$3.50</p>
+            </div>
+            <div class="menu-item">
+                <img src="Receta para hacer paches guatemaltecos.jpg" alt="Plato 4">
+                <h3>bollo de chancho</h3>
+                <p>esta rellena de carne suave y jugosa</p>
+                <p>$2.75</p>
+            </div>
+            <div class="menu-item">
+                <img src="Bollos de pescado _ Recetas Ecuatorianas _ Laylita_com.jpg" alt="Plato 5">
+                <h3>bollo de mondogo</h3>
+                <p>prueva su textura suave y deliciosa </p>
+                <br>
+                <p>$2.75</p>
+            </div>
+            <div class="menu-item">
+                <img src="Menú.jpg" alt="Plato 6">
+                <h3>tonga</h3>
+                <p>Una delicia ecuatoria que debes probar</p>
+                <p>$5.00</p>
+            </div>
+            <div class="menu-item">
+                <img src="RECETA_ Tortillas de maíz _ Manta Online (1).jpg" alt="Plato 7">
+                <h3>tortillas de maiz</h3>
+                <p>tenemos de chicharon, queso y dulce</p>
+                <br>
+                <p>$1.75</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section class="about" id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>Todo inició en los siglos 90 donde existe una persona llamada Aurelio y y empezaron un
+             local donde poco a poco fueron ganaron probabilidad pero después los municipales tuvieron
+              un problema y nos mandaron a la calle entonces solo existía el fogón donde tenían las
+               tortillas de ahí Aurelio ahí se le pegó a mi abuela Virginia Aurelio donde ellos sacaron 
+               encima su negocio y mi abuela empezó a hacer los bollos Y ahora él yo empezó a hacer las
+                tortillas poco a poco fueron ganando fama y la demanda la necesitaba tener un local Entonces
+                 ellos pusieron un bloque en la esquinita en la 7 de octubre en la principal y de ahí poco a 
+                 poco fueron en la popularidad de la final los votaron de ahí otra vez y está en un local más adentro</p>
+                 <img src="5t5.jpg" >
+
+    </section>
+    <hr>
+
+    <!-- Contacto -->
+    <section class="contact" id="contact">
+        <h2>Contacto</h2>
+        <p>Dirección: 7 de octubre, ciudad de Quevedo,los rios</p>
+        <p>Teléfono: (123) 456-7890</p>
+        <p>Email: contacto@lasazondevirginia.com</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Restaurante La sazon de Virginia.</p>
+    </footer>
+</hr>
+
+</body>
+</html>
